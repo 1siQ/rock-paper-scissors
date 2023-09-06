@@ -1,0 +1,58 @@
+body{
+    background: rgba(43, 43, 43, 0.667);
+
+}
+.container{
+    display: flex;
+    background-color: #555555;
+    float: left;
+    margin: 9vw 30vh;
+    height: 60vh;
+    width: 70%;
+ 
+}
+.container .player{
+    text-align: center;
+    font-size: 4x;
+    background: rgba(255, 255, 255, 0.667);
+    width: 50%;
+    height: 100%;
+
+}
+.container .player .selection .imgs{
+    text-align: center;
+    width: 25%;
+    margin-top: 10%;
+    cursor: pointer;
+
+}
+.container .robot{
+    text-align: center;
+
+    border-left: 1px solid black;
+    background: rgba(255, 255, 255, 0.667);
+    width: 50%;
+    height: 100%;
+
+}
+.container .robot .selection{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
+
+}
+.container .robot .selection .s{
+    display: none;
+    text-align: center;
+    width: 25%;
+
+    
+
+}
+.winortie{
+    position: absolute;
+    left:49%;
+    top:10%;
+    font-size: 30px;
+}

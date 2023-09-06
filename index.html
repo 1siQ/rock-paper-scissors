@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <button onclick="reset()" >RESET</button>
+    <label id="winortie" for="" class="winortie"></label>
+    <div class="container">
+        
+        <div class="player">
+            <h1>Player</h1>
+            <h4 id="win">0</h4>
+            <div class="selection">
+                <img onclick="start('tas')" class="imgs" src="img/obsidian-svgrepo-com.svg" alt="rock">
+                <img onclick="start('kagit')" class="imgs" src="img/paper-svgrepo-com.svg" alt="paper">
+                <img onclick="start('makas')" class="imgs" src="img/scissors-svgrepo-com.svg" alt="scissors">
+            </div>
+        </div>
+        <div class="robot">
+            <h1>Enemy</h1>
+            <h4 id="lose">0</h4>
+
+            <div class="selection">
+                <div class="selection">
+                    <img class="imgs s" id="tas" src="img/obsidian-svgrepo-com.svg" alt="rock">
+                    <img class="imgs s" id="kagit" src="img/paper-svgrepo-com.svg" alt="paper">
+                    <img class="imgs s" id="makas" src="img/scissors-svgrepo-com.svg" alt="scissors">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
